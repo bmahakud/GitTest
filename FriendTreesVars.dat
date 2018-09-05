@@ -1,0 +1,83 @@
+ Int_t           nLepGood;
+   Float_t         LepGood_conePt[6];   //[nLepGood]
+   Int_t           nLepLoose_Mini;
+   Int_t           iL_Mini[20];
+   Int_t           nLepLooseVeto_Mini;
+   Int_t           iLV_Mini[20];
+   Int_t           nLepCleaning_Mini;
+   Int_t           iC_Mini[20];
+   Int_t           nLepCleaningVeto_Mini;
+   Int_t           iCV_Mini[20];
+   Int_t           nLepFO_Mini;
+   Int_t           iF_Mini[20];
+   Int_t           nLepFOVeto_Mini;
+   Int_t           iFV_Mini[20];
+   Int_t           nLepTight_Mini;
+   Int_t           iT_Mini[20];
+   Int_t           nLepTightVeto_Mini;
+   Int_t           iTV_Mini[20];
+   Int_t           LepGood_isLoose_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isLooseVeto_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isCleaning_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isCleaningVeto_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isFO_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isFOVeto_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isTight_Mini[6];   //[nLepGood]
+   Int_t           LepGood_isTightVeto_Mini[6];   //[nLepGood]
+   Float_t         mZ1_Mini;
+   Float_t         minMllAFAS_Mini;
+   Float_t         minMllAFOS_Mini;
+   Float_t         minMllAFSS_Mini;
+   Float_t         minMllSFOS_Mini;
+   Int_t           nTauSel_Mini;
+   Int_t           nTightTauSel_Mini;
+   Int_t           iTauSel_Mini[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_pt[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_eta[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_phi[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_mass[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_reclTauId[4];   //[nTauSel_Mini]
+   Float_t         TauSel_Mini_mcMatchId[4];   //[nTauSel_Mini]
+   Int_t           TauSel_Mini_pdgId[4];   //[nTauSel_Mini]
+   Int_t           nJetSel_Mini;
+   Int_t           iJSel_Mini[22];   //[nJetSel_Mini]
+   Int_t           nDiscJetSel_Mini;
+   Int_t           iDiscJSel_Mini[4];   //[nDiscJetSel_Mini]
+   Int_t           nJet30_Mini;
+   Float_t         htJet30j_Mini;
+   Float_t         mhtJet30_Mini;
+   Int_t           nBJetLoose30_Mini;
+   Int_t           nBJetMedium30_Mini;
+   Int_t           nJet25_Mini;
+   Float_t         htJet25j_Mini;
+   Float_t         mhtJet25_Mini;
+   Int_t           nBJetLoose25_Mini;
+   Int_t           nBJetMedium25_Mini;
+   Int_t           nJetSel_Mini_jecUp;
+   Int_t           iJSel_Mini_jecUp[22];   //[nJetSel_Mini_jecUp]
+   Int_t           nDiscJetSel_Mini_jecUp;
+   Int_t           iDiscJSel_Mini_jecUp[4];   //[nDiscJetSel_Mini_jecUp]
+   Int_t           nJet30_Mini_jecUp;
+   Float_t         htJet30j_Mini_jecUp;
+   Float_t         mhtJet30_Mini_jecUp;
+   Int_t           nBJetLoose30_Mini_jecUp;
+   Int_t           nBJetMedium30_Mini_jecUp;
+   Int_t           nJet25_Mini_jecUp;
+   Float_t         htJet25j_Mini_jecUp;
+   Float_t         mhtJet25_Mini_jecUp;
+   Int_t           nBJetLoose25_Mini_jecUp;
+   Int_t           nBJetMedium25_Mini_jecUp;
+   Int_t           nJetSel_Mini_jecDown;
+   Int_t           iJSel_Mini_jecDown[22];   //[nJetSel_Mini_jecDown]
+   Int_t           nDiscJetSel_Mini_jecDown;
+   Int_t           iDiscJSel_Mini_jecDown[4];   //[nDiscJetSel_Mini_jecDown]
+   Int_t           nJet30_Mini_jecDown;
+   Float_t         htJet30j_Mini_jecDown;
+   Float_t         mhtJet30_Mini_jecDown;
+   Int_t           nBJetLoose30_Mini_jecDown;
+   Int_t           nBJetMedium30_Mini_jecDown;
+   Int_t           nJet25_Mini_jecDown;
+   Float_t         htJet25j_Mini_jecDown;
+   Float_t         mhtJet25_Mini_jecDown;
+   Int_t           nBJetLoose25_Mini_jecDown;
+   Int_t           nBJetMedium25_Mini_jecDown;
